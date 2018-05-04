@@ -1,0 +1,6 @@
+framework module Pods_BLinApp {
+  umbrella header "Pods-BLinApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

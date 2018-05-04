@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AF1368207099AD001457BE /* nailBG.JPEG in Resources */ = {isa = PBXBuildFile; fileRef = 12AF1367207099AD001457BE /* nailBG.JPEG */; };
+		12AF136A2070AE02001457BE /* nailHS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12AF13692070AE02001457BE /* nailHS.jpg */; };
+		12BC1CB7207F0A0E00722F6B /* manicure.png in Resources */ = {isa = PBXBuildFile; fileRef = 12BC1CB5207F0A0D00722F6B /* manicure.png */; };
+		12BC1CB8207F0A0E00722F6B /* pedicure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12BC1CB6207F0A0D00722F6B /* pedicure.jpg */; };
+		3716A95F12A92E0C422F3A4F /* Pods_BLinAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5E5670060474CEE668A4FC /* Pods_BLinAppTests.framework */; };
+		4003AF6F1F9978B200F3A36C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003AF6E1F9978B200F3A36C /* AppDelegate.swift */; };
+		4003AF711F9978B200F3A36C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003AF701F9978B200F3A36C /* ViewController.swift */; };
+		4003AF741F9978B200F3A36C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4003AF721F9978B200F3A36C /* Main.storyboard */; };
+		4003AF761F9978B200F3A36C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4003AF751F9978B200F3A36C /* Assets.xcassets */; };
+		4003AF791F9978B200F3A36C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4003AF771F9978B200F3A36C /* LaunchScreen.storyboard */; };
+		4003AF841F9978B300F3A36C /* BLinAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003AF831F9978B300F3A36C /* BLinAppTests.swift */; };
+		4003AF8F1F9978B300F3A36C /* BLinAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003AF8E1F9978B300F3A36C /* BLinAppUITests.swift */; };
+		40A087D61FA4339900B6F7D4 /* ScheduleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A087D51FA4339900B6F7D4 /* ScheduleScreen.swift */; };
+		40D3D8B81F99BC680018CFED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40D3D8B71F99BC680018CFED /* GoogleService-Info.plist */; };
+		40D3D8BA1F99C2220018CFED /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3D8B91F99C2220018CFED /* MainScreenViewController.swift */; };
+		40E9CFB31FB0C27800E5496C /* AdminPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9CFB21FB0C27800E5496C /* AdminPageViewController.swift */; };
+		DE7F7BF0D2606E62F9CCBC85 /* Pods_BLinAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AF3CD6A8BD9899D6CD28A1 /* Pods_BLinAppUITests.framework */; };
+		E4372DE24CAD177B84E5E4BF /* Pods_BLinApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369D3679BAA254DF00F72783 /* Pods_BLinApp.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4003AF801F9978B300F3A36C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4003AF631F9978B200F3A36C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4003AF6A1F9978B200F3A36C;
+			remoteInfo = BLinApp;
+		};
+		4003AF8B1F9978B300F3A36C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4003AF631F9978B200F3A36C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4003AF6A1F9978B200F3A36C;
+			remoteInfo = BLinApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12AF1367207099AD001457BE /* nailBG.JPEG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nailBG.JPEG; sourceTree = "<group>"; };
+		12AF13692070AE02001457BE /* nailHS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nailHS.jpg; sourceTree = "<group>"; };
+		12BC1CB5207F0A0D00722F6B /* manicure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manicure.png; sourceTree = "<group>"; };
+		12BC1CB6207F0A0D00722F6B /* pedicure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pedicure.jpg; sourceTree = "<group>"; };
+		1588C71981C66AEAF80DADED /* Pods-BLinAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLinAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLinAppUITests/Pods-BLinAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		369D3679BAA254DF00F72783 /* Pods_BLinApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLinApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738BAC5CDAC5587868A322B /* Pods-BLinAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLinAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLinAppTests/Pods-BLinAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4003AF6B1F9978B200F3A36C /* BLinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4003AF6E1F9978B200F3A36C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4003AF701F9978B200F3A36C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4003AF731F9978B200F3A36C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4003AF751F9978B200F3A36C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4003AF781F9978B200F3A36C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4003AF7A1F9978B200F3A36C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4003AF7F1F9978B300F3A36C /* BLinAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLinAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4003AF831F9978B300F3A36C /* BLinAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLinAppTests.swift; sourceTree = "<group>"; };
+		4003AF851F9978B300F3A36C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4003AF8A1F9978B300F3A36C /* BLinAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLinAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4003AF8E1F9978B300F3A36C /* BLinAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLinAppUITests.swift; sourceTree = "<group>"; };
+		4003AF901F9978B300F3A36C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A087D51FA4339900B6F7D4 /* ScheduleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleScreen.swift; sourceTree = "<group>"; };
+		40D3D8B71F99BC680018CFED /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40D3D8B91F99C2220018CFED /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		40E9CFB21FB0C27800E5496C /* AdminPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPageViewController.swift; sourceTree = "<group>"; };
+		75AF3CD6A8BD9899D6CD28A1 /* Pods_BLinAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLinAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92F3FEDC45EEE9F9C6410F4 /* Pods-BLinApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLinApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLinApp/Pods-BLinApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A9C3501B53835489BBA87462 /* Pods-BLinAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLinAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLinAppUITests/Pods-BLinAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA5E5670060474CEE668A4FC /* Pods_BLinAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLinAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA68022D519485A775BFE607 /* Pods-BLinAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLinAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLinAppTests/Pods-BLinAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB6953AAD7D19A20F416915C /* Pods-BLinApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLinApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLinApp/Pods-BLinApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4003AF681F9978B200F3A36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4372DE24CAD177B84E5E4BF /* Pods_BLinApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4003AF7C1F9978B300F3A36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3716A95F12A92E0C422F3A4F /* Pods_BLinAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4003AF871F9978B300F3A36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7F7BF0D2606E62F9CCBC85 /* Pods_BLinAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12AF136620709997001457BE /* image */ = {
+			isa = PBXGroup;
+			children = (
+				12AF13692070AE02001457BE /* nailHS.jpg */,
+				12BC1CB5207F0A0D00722F6B /* manicure.png */,
+				12BC1CB6207F0A0D00722F6B /* pedicure.jpg */,
+				12AF1367207099AD001457BE /* nailBG.JPEG */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		4003AF621F9978B200F3A36C = {
+			isa = PBXGroup;
+			children = (
+				40D3D8B71F99BC680018CFED /* GoogleService-Info.plist */,
+				4003AF6D1F9978B200F3A36C /* BLinApp */,
+				4003AF821F9978B300F3A36C /* BLinAppTests */,
+				4003AF8D1F9978B300F3A36C /* BLinAppUITests */,
+				4003AF6C1F9978B200F3A36C /* Products */,
+				CC0FD760DF9BF2D5E025D0F4 /* Pods */,
+				86F6B94359A5C04740DFE861 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4003AF6C1F9978B200F3A36C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4003AF6B1F9978B200F3A36C /* BLinApp.app */,
+				4003AF7F1F9978B300F3A36C /* BLinAppTests.xctest */,
+				4003AF8A1F9978B300F3A36C /* BLinAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4003AF6D1F9978B200F3A36C /* BLinApp */ = {
+			isa = PBXGroup;
+			children = (
+				12AF136620709997001457BE /* image */,
+				4003AF6E1F9978B200F3A36C /* AppDelegate.swift */,
+				4003AF701F9978B200F3A36C /* ViewController.swift */,
+				4003AF721F9978B200F3A36C /* Main.storyboard */,
+				40A087D51FA4339900B6F7D4 /* ScheduleScreen.swift */,
+				4003AF751F9978B200F3A36C /* Assets.xcassets */,
+				4003AF771F9978B200F3A36C /* LaunchScreen.storyboard */,
+				40E9CFB21FB0C27800E5496C /* AdminPageViewController.swift */,
+				4003AF7A1F9978B200F3A36C /* Info.plist */,
+				40D3D8B91F99C2220018CFED /* MainScreenViewController.swift */,
+			);
+			path = BLinApp;
+			sourceTree = "<group>";
+		};
+		4003AF821F9978B300F3A36C /* BLinAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4003AF831F9978B300F3A36C /* BLinAppTests.swift */,
+				4003AF851F9978B300F3A36C /* Info.plist */,
+			);
+			path = BLinAppTests;
+			sourceTree = "<group>";
+		};
+		4003AF8D1F9978B300F3A36C /* BLinAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4003AF8E1F9978B300F3A36C /* BLinAppUITests.swift */,
+				4003AF901F9978B300F3A36C /* Info.plist */,
+			);
+			path = BLinAppUITests;
+			sourceTree = "<group>";
+		};
+		86F6B94359A5C04740DFE861 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				369D3679BAA254DF00F72783 /* Pods_BLinApp.framework */,
+				BA5E5670060474CEE668A4FC /* Pods_BLinAppTests.framework */,
+				75AF3CD6A8BD9899D6CD28A1 /* Pods_BLinAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC0FD760DF9BF2D5E025D0F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A92F3FEDC45EEE9F9C6410F4 /* Pods-BLinApp.debug.xcconfig */,
+				EB6953AAD7D19A20F416915C /* Pods-BLinApp.release.xcconfig */,
+				BA68022D519485A775BFE607 /* Pods-BLinAppTests.debug.xcconfig */,
+				3738BAC5CDAC5587868A322B /* Pods-BLinAppTests.release.xcconfig */,
+				A9C3501B53835489BBA87462 /* Pods-BLinAppUITests.debug.xcconfig */,
+				1588C71981C66AEAF80DADED /* Pods-BLinAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4003AF6A1F9978B200F3A36C /* BLinApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4003AF931F9978B300F3A36C /* Build configuration list for PBXNativeTarget "BLinApp" */;
+			buildPhases = (
+				EECEC1D91F17F02E080C7F2C /* [CP] Check Pods Manifest.lock */,
+				4003AF671F9978B200F3A36C /* Sources */,
+				4003AF681F9978B200F3A36C /* Frameworks */,
+				4003AF691F9978B200F3A36C /* Resources */,
+				B1B12B6BD9E1772FD68B2732 /* [CP] Embed Pods Frameworks */,
+				F587DAC3682115A2C881BF8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLinApp;
+			productName = BLinApp;
+			productReference = 4003AF6B1F9978B200F3A36C /* BLinApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4003AF7E1F9978B300F3A36C /* BLinAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4003AF961F9978B300F3A36C /* Build configuration list for PBXNativeTarget "BLinAppTests" */;
+			buildPhases = (
+				913674FC841A386D68B36023 /* [CP] Check Pods Manifest.lock */,
+				4003AF7B1F9978B300F3A36C /* Sources */,
+				4003AF7C1F9978B300F3A36C /* Frameworks */,
+				4003AF7D1F9978B300F3A36C /* Resources */,
+				DCA8503D876E2DB4030B428E /* [CP] Embed Pods Frameworks */,
+				3CC7B0C7B89D9E3C5C057FDA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4003AF811F9978B300F3A36C /* PBXTargetDependency */,
+			);
+			name = BLinAppTests;
+			productName = BLinAppTests;
+			productReference = 4003AF7F1F9978B300F3A36C /* BLinAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4003AF891F9978B300F3A36C /* BLinAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4003AF991F9978B300F3A36C /* Build configuration list for PBXNativeTarget "BLinAppUITests" */;
+			buildPhases = (
+				82011AE2B5916012BF81EFE0 /* [CP] Check Pods Manifest.lock */,
+				4003AF861F9978B300F3A36C /* Sources */,
+				4003AF871F9978B300F3A36C /* Frameworks */,
+				4003AF881F9978B300F3A36C /* Resources */,
+				E07019D6B8383A7E19016180 /* [CP] Embed Pods Frameworks */,
+				5FCB0E79BFE2399CD37ADFC3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4003AF8C1F9978B300F3A36C /* PBXTargetDependency */,
+			);
+			name = BLinAppUITests;
+			productName = BLinAppUITests;
+			productReference = 4003AF8A1F9978B300F3A36C /* BLinAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4003AF631F9978B200F3A36C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = kito;
+				TargetAttributes = {
+					4003AF6A1F9978B200F3A36C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					4003AF7E1F9978B300F3A36C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4003AF6A1F9978B200F3A36C;
+					};
+					4003AF891F9978B300F3A36C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4003AF6A1F9978B200F3A36C;
+					};
+				};
+			};
+			buildConfigurationList = 4003AF661F9978B200F3A36C /* Build configuration list for PBXProject "BLinApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4003AF621F9978B200F3A36C;
+			productRefGroup = 4003AF6C1F9978B200F3A36C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4003AF6A1F9978B200F3A36C /* BLinApp */,
+				4003AF7E1F9978B300F3A36C /* BLinAppTests */,
+				4003AF891F9978B300F3A36C /* BLinAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4003AF691F9978B200F3A36C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D3D8B81F99BC680018CFED /* GoogleService-Info.plist in Resources */,
+				12BC1CB7207F0A0E00722F6B /* manicure.png in Resources */,
+				4003AF791F9978B200F3A36C /* LaunchScreen.storyboard in Resources */,
+				12AF1368207099AD001457BE /* nailBG.JPEG in Resources */,
+				12BC1CB8207F0A0E00722F6B /* pedicure.jpg in Resources */,
+				4003AF761F9978B200F3A36C /* Assets.xcassets in Resources */,
+				12AF136A2070AE02001457BE /* nailHS.jpg in Resources */,
+				4003AF741F9978B200F3A36C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4003AF7D1F9978B300F3A36C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4003AF881F9978B300F3A36C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CC7B0C7B89D9E3C5C057FDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLinAppTests/Pods-BLinAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FCB0E79BFE2399CD37ADFC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLinAppUITests/Pods-BLinAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82011AE2B5916012BF81EFE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLinAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		913674FC841A386D68B36023 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLinAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1B12B6BD9E1772FD68B2732 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BLinApp/Pods-BLinApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLinApp/Pods-BLinApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA8503D876E2DB4030B428E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLinAppTests/Pods-BLinAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07019D6B8383A7E19016180 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLinAppUITests/Pods-BLinAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EECEC1D91F17F02E080C7F2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLinApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F587DAC3682115A2C881BF8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLinApp/Pods-BLinApp-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4003AF671F9978B200F3A36C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A087D61FA4339900B6F7D4 /* ScheduleScreen.swift in Sources */,
+				4003AF711F9978B200F3A36C /* ViewController.swift in Sources */,
+				4003AF6F1F9978B200F3A36C /* AppDelegate.swift in Sources */,
+				40D3D8BA1F99C2220018CFED /* MainScreenViewController.swift in Sources */,
+				40E9CFB31FB0C27800E5496C /* AdminPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4003AF7B1F9978B300F3A36C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4003AF841F9978B300F3A36C /* BLinAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4003AF861F9978B300F3A36C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4003AF8F1F9978B300F3A36C /* BLinAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4003AF811F9978B300F3A36C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4003AF6A1F9978B200F3A36C /* BLinApp */;
+			targetProxy = 4003AF801F9978B300F3A36C /* PBXContainerItemProxy */;
+		};
+		4003AF8C1F9978B300F3A36C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4003AF6A1F9978B200F3A36C /* BLinApp */;
+			targetProxy = 4003AF8B1F9978B300F3A36C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4003AF721F9978B200F3A36C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4003AF731F9978B200F3A36C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4003AF771F9978B200F3A36C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4003AF781F9978B200F3A36C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4003AF911F9978B300F3A36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4003AF921F9978B300F3A36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4003AF941F9978B300F3A36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92F3FEDC45EEE9F9C6410F4 /* Pods-BLinApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6DYCX3L7Z;
+				INFOPLIST_FILE = BLinApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mam.kito.BLinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4003AF951F9978B300F3A36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6953AAD7D19A20F416915C /* Pods-BLinApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6DYCX3L7Z;
+				INFOPLIST_FILE = BLinApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mam.kito.BLinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4003AF971F9978B300F3A36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA68022D519485A775BFE607 /* Pods-BLinAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLinAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mam.kito.BLinAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLinApp.app/BLinApp";
+			};
+			name = Debug;
+		};
+		4003AF981F9978B300F3A36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3738BAC5CDAC5587868A322B /* Pods-BLinAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLinAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mam.kito.BLinAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLinApp.app/BLinApp";
+			};
+			name = Release;
+		};
+		4003AF9A1F9978B300F3A36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C3501B53835489BBA87462 /* Pods-BLinAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLinAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mam.kito.BLinAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLinApp;
+			};
+			name = Debug;
+		};
+		4003AF9B1F9978B300F3A36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1588C71981C66AEAF80DADED /* Pods-BLinAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLinAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mam.kito.BLinAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLinApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4003AF661F9978B200F3A36C /* Build configuration list for PBXProject "BLinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4003AF911F9978B300F3A36C /* Debug */,
+				4003AF921F9978B300F3A36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4003AF931F9978B300F3A36C /* Build configuration list for PBXNativeTarget "BLinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4003AF941F9978B300F3A36C /* Debug */,
+				4003AF951F9978B300F3A36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4003AF961F9978B300F3A36C /* Build configuration list for PBXNativeTarget "BLinAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4003AF971F9978B300F3A36C /* Debug */,
+				4003AF981F9978B300F3A36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4003AF991F9978B300F3A36C /* Build configuration list for PBXNativeTarget "BLinAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4003AF9A1F9978B300F3A36C /* Debug */,
+				4003AF9B1F9978B300F3A36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4003AF631F9978B200F3A36C /* Project object */;
+}
